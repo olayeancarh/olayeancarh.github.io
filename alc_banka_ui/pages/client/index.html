@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Banka is a light-weight core banking application that powers banking operations like account creation, customer deposit and withdrawals.">
+  <meta name="keywords" content="Banking, ADC, Andela, Lagos, Nigeria">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="../../css/mobile.css">
+  <title> Banka | Welcome </title>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+          <h1 class="logo"><a href="index.html">BANKA</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><input type="button" id="createAccount" value="Create Account"></li>
+            <li><input type="button" id="logout" value="Log-out"></li>
+          </ul>
+      </div>
+    </nav>
+  </header>
+
+  
+  <section class="" id="home-info">
+      
+      <table>
+          <h3>Account Transactions</h3>
+          <thead>
+            <tr>
+              <th>Trans. Date</th>
+              <th>Originating Branch</th>
+              <th>Debits</th>
+              <th>Credits</th>
+              <th>Balance</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="transBody">
+            <tr>
+              <td data-column="Trans. Date">2019-04-31</td>
+              <td data-column="Originating Branch">ATM</td>
+              <td data-column="Debits">5,000</td>
+              <td data-column="Credits"></td>
+              <td data-column="Balance">50,000</td>
+              <td data-column="Actions"><input type="button" class="btn bg-coral" value="View Trans."></td>
+            </tr>
+            <tr>
+                <td data-column="Trans. Date">2019-06-3</td>
+                <td data-column="Originating Branch">ATM</td>
+                <td data-column="Debits">5,000</td>
+                <td data-column="Credits"></td>
+                <td data-column="Balance">50,000</td>
+                <td data-column="Actions"><input type="button" class="btn bg-coral" value="View Trans."></td>
+            </tr>
+            <tr>
+                <td data-column="Trans. Date">2019-04-31</td>
+                <td data-column="Originating Branch">E-Branch</td>
+                <td data-column="Debits">5,000</td>
+                <td data-column="Credits"></td>
+                <td data-column="Balance">50,000</td>
+                <td data-column="Actions"><input type="button" class="btn bg-coral" value="View Trans."></td>
+            </tr>
+            <tr>
+                <td data-column="Trans. Date">2018-04-31</td>
+                <td data-column="Originating Branch">POS</td>
+                <td data-column="Debits">3,890</td>
+                <td data-column="Credits"></td>
+                <td data-column="Balance">67009</td>
+                <td data-column="Actions"><input type="button" class="btn bg-coral" value="View Trans."></td>
+            </tr>
+            <tr>
+                <td data-column="Trans. Date">2018-04-31</td>
+                <td data-column="Originating Branch">POS</td>
+                <td data-column="Debits">3,890</td>
+                <td data-column="Credits"></td>
+                <td data-column="Balance">67009</td>
+                <td data-column="Actions"><input type="button" class="btn bg-coral" value="View Trans."></td>
+            </tr>
+          </tbody>
+        </table>
+    
+  </section>
+
+  <section id="features">
+
+  </section>
+
+  <div class="clr"></div>
+
+  <footer id="main-footer">
+    <p>Banka &copy; 2019, All Rights Reserved</p>
+  </footer>
+
+  <div id="my-modal" class="modal">
+    <div class="modal-content" id="modCont">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 id="modalHeader"></h2>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+  <script src="../../utilz/utilz.js"></script>
+</body>
+</html>
