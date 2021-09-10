@@ -3649,7 +3649,7 @@ ul {
   }
 }
 .dashboard-card-one .card-body .earning-report .item-content .single-item:after {
-  content: "";
+  /* content: ""; */
   height: 18px;
   width: 18px;
   border: 3px solid #ffffff;
