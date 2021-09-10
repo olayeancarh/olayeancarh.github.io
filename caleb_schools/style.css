@@ -2034,7 +2034,7 @@ ul {
 }
 .header-main-menu .navbar-nav .header-admin .dropdown-menu .item-header {
   text-align: center;
-  background-color: #ffa001;
+  background-color: #931A3F;
   padding: 20px 25px;
   border-radius: 4px 4px 0 0;
   position: relative;
@@ -2043,7 +2043,7 @@ ul {
   content: "";
   height: 0;
   width: 0;
-  border-bottom: 10px solid #ffa001;
+  border-bottom: 10px solid #931A3F;
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   position: absolute;
@@ -2159,7 +2159,7 @@ ul {
   color: #ffffff;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu > .nav-item .nav-link.menu-active {
-  background-color: #042954;
+  background-color: #821a39;
   color: #ffa901;
 }
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .sub-group-menu.sub-group-active {
