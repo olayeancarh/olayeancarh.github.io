@@ -192,7 +192,7 @@
             pointHoverRadius: 6,
             pointHoverBorderWidth: 3,
             fill: 'origin',
-            label: "Total Collection"
+            label: "Total Boys"
           },
           {
             data: [0, 3e4, 2e4, 6e4, 7e4, 5e4, 5e4, 9e4, 8e4],
@@ -205,7 +205,7 @@
             pointHoverRadius: 6,
             pointHoverBorderWidth: 3,
             fill: 'origin',
-            label: "Fees Collection"
+            label: "Total Girls"
           }
         ]
       };
@@ -304,11 +304,11 @@
     if ($("#expense-bar-chart").length) {
 
       var barChartData = {
-        labels: ["Jan", "Feb", "Mar"],
+        labels: ["2019", "2020", "2021"],
         datasets: [{
           backgroundColor: ["#40dfcd", "#417dfc", "#ffaa01"],
-          data: [125000, 100000, 75000, 50000, 150000],
-          label: "Expenses (millions)"
+          data: [80000, 100000, 150000, 50000, 150000],
+          label: "Population (thousands)"
         }, ]
       };
       var barChartOptions = {
